@@ -5,7 +5,7 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 load_dotenv()
-app=FastAPI(title='Étheria — Exploration culturelle',version='0.6')
+app=FastAPI(title='Étheria — Exploration culturelle',version='0.1')
 BASE=Path(__file__).parent
 @app.get('/')
 def home(): return FileResponse(BASE/'index.html')
