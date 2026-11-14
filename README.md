@@ -1,4 +1,4 @@
-# Étheria v0.5 — Exploration culturelle
+# Étheria v0.1 — Exploration culturelle
 
 **La traduction automatique a été supprimée.** Le produit explore les lieux évoqués, traditions, anecdotes, contexte et éléments visibles dans une image fixe. Les bulles sont synchronisées aux timestamps de Whisper.
 
@@ -38,7 +38,7 @@ Ouvrir http://127.0.0.1:8000. Sans clé API, utiliser **Démonstration**. Pour a
 HTML/CSS/JS + FastAPI + faster-whisper local + API multimodale optionnelle. Pas de base de données ni de système de comptes. La démo fonctionne sans serveur, mais le traitement IA nécessite un serveur Python et une clé API.
 
 
-## Nouveautés v0.6 — mémoire culturelle et questions libres
+## Nouveautés v0.2 — mémoire culturelle et questions libres
 
 - Chaque bulle peut être mémorisée dans le navigateur via **☆ Mémoriser**.
 - La case « Ne plus proposer les découvertes déjà enregistrées » masque ces sujets lors du visionnage.
